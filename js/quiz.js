@@ -16,7 +16,7 @@ function runQuiz(quiz) {
 const questions = [
   createQuestion('Name', 'What\'s your name'),
   createQuestion('Company', 'What\'s your company'),
-  createQuestion('Salary', 'Wanna get paid?', ['Yes', 'No'], 'No'),
+  createQuestion('Salary', 'Wanna get paid?', ['Yes', 'No'], 'Yes'), 
 ]
 
 const quiz = createQuiz(questions);

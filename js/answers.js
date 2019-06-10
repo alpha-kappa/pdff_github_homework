@@ -10,7 +10,7 @@ function askQuestion(question) {
 
   if(question.options) {
     text += '\n';
-    text = question.options.map(opt => '- ' + opt).join('\n')
+    text += question.options.map(opt => '- ' + opt).join('\n')
   }
 
   const answerText = prompt(text);
